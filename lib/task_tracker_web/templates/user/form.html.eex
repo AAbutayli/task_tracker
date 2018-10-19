@@ -4,15 +4,13 @@
       <p>Oops, something went wrong! Please check the errors below.</p>
     </div>
   <% end %>
-
-  <%= label f, :email %>
-  <%= text_input f, :email %>
-  <%= error_tag f, :email %>
-
-  <%= label f, :admin %>
-  <%= error_tag f, :admin %>
+  <div class="form-group">
+    <%= label f, :email %>
+    <%= text_input f, :email, class: "form-control" %>
+    <%= error_tag f, :email %>
+  </div>
 
   <div>
-    <%= submit "Register" %>
+    <%= submit "Register", class: "btn btn-primary" %>
   </div>
 <% end %>

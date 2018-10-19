@@ -1,4 +1,4 @@
-defmodule TaskTrakerWeb.Plugs.FetchSession do
+defmodule TaskTrackerWeb.Plugs.FetchSession do
   import Plug.Conn
 
   def init(args), do: args
