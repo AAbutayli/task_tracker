@@ -10,10 +10,9 @@
   <%= error_tag f, :email %>
 
   <%= label f, :admin %>
-  <%= checkbox f, :admin %>
   <%= error_tag f, :admin %>
 
   <div>
-    <%= submit "Save" %>
+    <%= submit "Register" %>
   </div>
 <% end %>
